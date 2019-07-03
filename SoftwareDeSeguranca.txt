@@ -1,0 +1,1 @@
+./Debug/main.cpp.o ./Debug/Antivirus.cpp.o ./Debug/Panda.cpp.o ./Debug/McAfee.cpp.o ./Debug/Kaspersky.cpp.o ./Debug/Antispyware.cpp.o ./Debug/Firewall.cpp.o ./Debug/SoftwareDeSeguranca.cpp.o ./Debug/Assinante.cpp.o ./Debug/Virus.cpp.o   
