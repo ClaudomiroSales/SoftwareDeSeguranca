@@ -18,6 +18,7 @@ public:
 
     Antispyware();
     Antispyware ( const Antispyware& );
+	Antispyware( const string & , const string &);
     ~Antispyware();
     
     bool verificarAmeaca( bool );

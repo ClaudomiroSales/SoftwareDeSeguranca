@@ -12,6 +12,13 @@ Antispyware::Antispyware()
     
 }
 
+Antispyware::Antispyware( const string &nomeDosProgramas, const string &tipoDePrograma )
+: SoftwareDeSeguranca(  )
+{
+	this->nomeDosProgramas = nomeDosProgramas;
+    this->tipoDePrograma = tipoDePrograma;
+}
+
 Antispyware::Antispyware(const  Antispyware &origem )
 : SoftwareDeSeguranca( origem )
 {
