@@ -1,10 +1,10 @@
 #include "Firewall.h"
 
-Firewall::Firewall( string &ip, string &mask)
+Firewall::Firewall( const string &ip, const string &mask)
 : SoftwareDeSeguranca( )
 {
-    this-> ip = "";
-    this-> mascara = "";
+    this->ip = ip;
+    this->mascara = mask;
 }
 
 Firewall::Firewall()

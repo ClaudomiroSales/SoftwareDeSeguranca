@@ -4,6 +4,8 @@
 #include "Assinante.h"
 #include "SoftwareDeSeguranca.h"
 
+#include <stdlib.h> 
+
 using std::cout;
 using std::cin;
 

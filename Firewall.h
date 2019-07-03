@@ -18,7 +18,7 @@ class Firewall : public SoftwareDeSeguranca
 public:
 
     Firewall();
-    Firewall( string & , string &);
+    Firewall( const string & , const string &);
     Firewall ( const Firewall& );
     ~Firewall();
   

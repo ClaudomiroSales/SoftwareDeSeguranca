@@ -40,9 +40,11 @@ bool SoftwareDeSeguranca::operator != (const SoftwareDeSeguranca &right )
 
 }
 
-const SoftwareDeSeguranca &SoftwareDeSeguranca::operator = ( const SoftwareDeSeguranca &right ) 
+const SoftwareDeSeguranca &SoftwareDeSeguranca::operator= ( const SoftwareDeSeguranca &right ) 
 {
-    NOME = right.NOME;
+    //NOME = right.NOME; 
+	//NOME é const não pode ser atribuido aqui
+	//Na verdade por software de segurança ser abstract, não precisa ter o operador de atroibuição
 	return *this;
 }
 
